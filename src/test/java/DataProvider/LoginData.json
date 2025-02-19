@@ -1,0 +1,12 @@
+[
+  {
+    "email" : "seleniumjavatraining@mail.com",
+    "password" : "Pwdtest1234-",
+    "expectedTitle" : "Let's Shop"
+  },
+  {
+    "email" : "irtest@mail.com",
+    "password" : "Pwdtest1234-",
+    "expectedTitle" : "Let's Shop"
+  }
+]
