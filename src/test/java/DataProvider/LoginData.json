@@ -8,5 +8,10 @@
     "email" : "irtest@mail.com",
     "password" : "Pwdtest1234-",
     "expectedTitle" : "Let's Shop"
+  },
+  {
+    "email" : "irtest",
+    "password" : "1234-",
+    "feedback" : "*Enter Valid Email"
   }
 ]

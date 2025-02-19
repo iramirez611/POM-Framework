@@ -26,6 +26,9 @@ public class LandingPage extends CommonComponents {
     @FindBy (id = "login")
     WebElement loginButton;
 
+    @FindBy (css = "div.invalid-feedback")
+    WebElement invalidFeedback;
+
     public void goTo(String url){
         driver.get(url);
     }
@@ -35,6 +38,10 @@ public class LandingPage extends CommonComponents {
         userEmailInput.sendKeys(email);
         userPasswordInput.sendKeys(password);
         loginButton.click();
+    }
+
+    public String getInvalidFeedback(){
+        return invalidFeedback.getText();
     }
 
 }
